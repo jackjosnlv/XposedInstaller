@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer;
+package com.rdc.zposed.installer;
 
 import android.app.Fragment;
 import android.app.FragmentTransaction;
@@ -20,15 +20,15 @@ import android.view.animation.Animation;
 import android.view.animation.Transformation;
 import android.widget.LinearLayout;
 
-import de.robv.android.xposed.installer.R;
+import com.rdc.zposed.installer.R;
 
-import com.rdc.xposed.installer.installation.StatusInstallerFragment;
-import com.rdc.xposed.installer.util.Loader;
-import com.rdc.xposed.installer.util.ModuleUtil;
-import com.rdc.xposed.installer.util.ModuleUtil.InstalledModule;
-import com.rdc.xposed.installer.util.ModuleUtil.ModuleListener;
-import com.rdc.xposed.installer.util.RepoLoader;
-import com.rdc.xposed.installer.util.ThemeUtil;
+import com.rdc.zposed.installer.installation.StatusInstallerFragment;
+import com.rdc.zposed.installer.util.Loader;
+import com.rdc.zposed.installer.util.ModuleUtil;
+import com.rdc.zposed.installer.util.ModuleUtil.InstalledModule;
+import com.rdc.zposed.installer.util.ModuleUtil.ModuleListener;
+import com.rdc.zposed.installer.util.RepoLoader;
+import com.rdc.zposed.installer.util.ThemeUtil;
 
 public class WelcomeActivity extends XposedBaseActivity implements NavigationView.OnNavigationItemSelectedListener,
         ModuleListener, Loader.Listener<RepoLoader> {

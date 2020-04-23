@@ -1,13 +1,13 @@
-package com.rdc.xposed.installer.util;
+package com.rdc.zposed.installer.util;
 
 import android.content.Context;
 import android.content.res.Resources.Theme;
 import android.content.res.TypedArray;
 
-import com.rdc.xposed.installer.XposedBaseActivity;
+import com.rdc.zposed.installer.XposedBaseActivity;
 
-import de.robv.android.xposed.installer.R;
-import com.rdc.xposed.installer.XposedApp;
+import com.rdc.zposed.installer.R;
+import com.rdc.zposed.installer.XposedApp;
 
 public final class ThemeUtil {
 	private static int[] THEMES = new int[] {

@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer;
+package com.rdc.zposed.installer;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -6,9 +6,9 @@ import android.support.annotation.StringRes;
 import android.support.v7.app.AppCompatActivity;
 import android.view.WindowManager;
 
-import de.robv.android.xposed.installer.R;
+import com.rdc.zposed.installer.R;
 
-import com.rdc.xposed.installer.util.ThemeUtil;
+import com.rdc.zposed.installer.util.ThemeUtil;
 
 public abstract class XposedBaseActivity extends AppCompatActivity {
     public int mTheme = -1;

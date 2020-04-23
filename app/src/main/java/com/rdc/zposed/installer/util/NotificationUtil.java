@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.util;
+package com.rdc.zposed.installer.util;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -10,11 +10,11 @@ import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.rdc.xposed.installer.WelcomeActivity;
+import com.rdc.zposed.installer.WelcomeActivity;
 
-import de.robv.android.xposed.installer.R;
+import com.rdc.zposed.installer.R;
 
-import com.rdc.xposed.installer.XposedApp;
+import com.rdc.zposed.installer.XposedApp;
 
 public final class NotificationUtil {
     public static final int NOTIFICATION_MODULE_NOT_ACTIVATED_YET = 0;

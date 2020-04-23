@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.installation;
+package com.rdc.zposed.installer.installation;
 
 import android.content.Context;
 import android.os.Parcel;
@@ -6,12 +6,12 @@ import android.os.Parcelable;
 
 import java.io.File;
 
-import de.robv.android.xposed.installer.R;
-import com.rdc.xposed.installer.util.FrameworkZips;
-import com.rdc.xposed.installer.util.InstallZipUtil.ZipCheckResult;
-import com.rdc.xposed.installer.util.RootUtil;
+import com.rdc.zposed.installer.R;
+import com.rdc.zposed.installer.util.FrameworkZips;
+import com.rdc.zposed.installer.util.InstallZipUtil.ZipCheckResult;
+import com.rdc.zposed.installer.util.RootUtil;
 
-import static com.rdc.xposed.installer.util.InstallZipUtil.closeSilently;
+import static com.rdc.zposed.installer.util.InstallZipUtil.closeSilently;
 
 public class FlashRecoveryAuto extends Flashable {
     public FlashRecoveryAuto(File zipPath, FrameworkZips.Type type, String title) {

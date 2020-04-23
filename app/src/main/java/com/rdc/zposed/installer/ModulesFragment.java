@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer;
+package com.rdc.zposed.installer;
 
 import android.Manifest;
 import android.app.ListFragment;
@@ -56,27 +56,27 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 
-import de.robv.android.xposed.installer.R;
+import com.rdc.zposed.installer.R;
 
-import com.rdc.xposed.installer.installation.StatusInstallerFragment;
-import com.rdc.xposed.installer.repo.Module;
-import com.rdc.xposed.installer.repo.ModuleVersion;
-import com.rdc.xposed.installer.repo.ReleaseType;
-import com.rdc.xposed.installer.repo.RepoDb;
-import com.rdc.xposed.installer.repo.RepoDb.RowNotFoundException;
-import com.rdc.xposed.installer.util.DownloadsUtil;
-import com.rdc.xposed.installer.util.ModuleUtil;
-import com.rdc.xposed.installer.util.ModuleUtil.InstalledModule;
-import com.rdc.xposed.installer.util.ModuleUtil.ModuleListener;
-import com.rdc.xposed.installer.util.NavUtil;
-import com.rdc.xposed.installer.util.RepoLoader;
-import com.rdc.xposed.installer.util.ThemeUtil;
+import com.rdc.zposed.installer.installation.StatusInstallerFragment;
+import com.rdc.zposed.installer.repo.Module;
+import com.rdc.zposed.installer.repo.ModuleVersion;
+import com.rdc.zposed.installer.repo.ReleaseType;
+import com.rdc.zposed.installer.repo.RepoDb;
+import com.rdc.zposed.installer.repo.RepoDb.RowNotFoundException;
+import com.rdc.zposed.installer.util.DownloadsUtil;
+import com.rdc.zposed.installer.util.ModuleUtil;
+import com.rdc.zposed.installer.util.ModuleUtil.InstalledModule;
+import com.rdc.zposed.installer.util.ModuleUtil.ModuleListener;
+import com.rdc.zposed.installer.util.NavUtil;
+import com.rdc.zposed.installer.util.RepoLoader;
+import com.rdc.zposed.installer.util.ThemeUtil;
 
 import static android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS;
-import static com.rdc.xposed.installer.XposedApp.WRITE_EXTERNAL_PERMISSION;
+import static com.rdc.zposed.installer.XposedApp.WRITE_EXTERNAL_PERMISSION;
 
 public class ModulesFragment extends ListFragment implements ModuleListener {
-    public static final String SETTINGS_CATEGORY = "de.robv.android.xposed.category.MODULE_SETTINGS";
+    public static final String SETTINGS_CATEGORY = "com.rdc.zposed.category.MODULE_SETTINGS";
     public static final String PLAY_STORE_PACKAGE = "com.android.vending";
     public static final String PLAY_STORE_LINK = "https://play.google.com/store/apps/details?id=%s";
     public static final String XPOSED_REPO_LINK = "http://repo.xposed.info/module/%s";

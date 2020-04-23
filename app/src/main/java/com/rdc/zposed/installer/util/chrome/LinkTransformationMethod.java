@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.util.chrome;
+package com.rdc.zposed.installer.util.chrome;
 
 import android.app.Activity;
 import android.graphics.Rect;

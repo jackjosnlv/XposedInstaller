@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.repo;
+package com.rdc.zposed.installer.repo;
 
 public class Repository {
 	public String name;

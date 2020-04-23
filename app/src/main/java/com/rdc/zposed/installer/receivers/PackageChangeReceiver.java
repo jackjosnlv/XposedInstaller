@@ -1,13 +1,13 @@
-package com.rdc.xposed.installer.receivers;
+package com.rdc.zposed.installer.receivers;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 
-import com.rdc.xposed.installer.util.ModuleUtil;
-import com.rdc.xposed.installer.util.ModuleUtil.InstalledModule;
-import com.rdc.xposed.installer.util.NotificationUtil;
+import com.rdc.zposed.installer.util.ModuleUtil;
+import com.rdc.zposed.installer.util.ModuleUtil.InstalledModule;
+import com.rdc.zposed.installer.util.NotificationUtil;
 
 public class PackageChangeReceiver extends BroadcastReceiver {
     private final static ModuleUtil mModuleUtil = ModuleUtil.getInstance();

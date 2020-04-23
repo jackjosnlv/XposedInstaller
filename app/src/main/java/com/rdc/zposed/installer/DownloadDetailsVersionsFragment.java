@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer;
+package com.rdc.zposed.installer;
 
 import android.app.Activity;
 import android.app.ListFragment;
@@ -16,23 +16,23 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.rdc.xposed.installer.repo.Module;
-import com.rdc.xposed.installer.repo.ModuleVersion;
-import com.rdc.xposed.installer.repo.ReleaseType;
-import com.rdc.xposed.installer.repo.RepoParser;
-import com.rdc.xposed.installer.util.DownloadsUtil;
-import com.rdc.xposed.installer.util.HashUtil;
-import com.rdc.xposed.installer.util.ModuleUtil;
-import com.rdc.xposed.installer.util.RepoLoader;
-import com.rdc.xposed.installer.util.ThemeUtil;
-import com.rdc.xposed.installer.util.chrome.LinkTransformationMethod;
-import com.rdc.xposed.installer.widget.DownloadView;
+import com.rdc.zposed.installer.repo.Module;
+import com.rdc.zposed.installer.repo.ModuleVersion;
+import com.rdc.zposed.installer.repo.ReleaseType;
+import com.rdc.zposed.installer.repo.RepoParser;
+import com.rdc.zposed.installer.util.DownloadsUtil;
+import com.rdc.zposed.installer.util.HashUtil;
+import com.rdc.zposed.installer.util.ModuleUtil;
+import com.rdc.zposed.installer.util.RepoLoader;
+import com.rdc.zposed.installer.util.ThemeUtil;
+import com.rdc.zposed.installer.util.chrome.LinkTransformationMethod;
+import com.rdc.zposed.installer.widget.DownloadView;
 
 import java.io.File;
 import java.text.DateFormat;
 import java.util.Date;
 
-import de.robv.android.xposed.installer.R;
+import com.rdc.zposed.installer.R;
 
 public class DownloadDetailsVersionsFragment extends ListFragment {
     private static VersionsAdapter sAdapter;

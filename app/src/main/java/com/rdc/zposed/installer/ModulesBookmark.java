@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer;
+package com.rdc.zposed.installer;
 
 import android.app.ListFragment;
 import android.content.Context;
@@ -25,13 +25,13 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import de.robv.android.xposed.installer.R;
+import com.rdc.zposed.installer.R;
 
-import com.rdc.xposed.installer.repo.Module;
-import com.rdc.xposed.installer.repo.ModuleVersion;
-import com.rdc.xposed.installer.util.DownloadsUtil;
-import com.rdc.xposed.installer.util.RepoLoader;
-import com.rdc.xposed.installer.util.ThemeUtil;
+import com.rdc.zposed.installer.repo.Module;
+import com.rdc.zposed.installer.repo.ModuleVersion;
+import com.rdc.zposed.installer.util.DownloadsUtil;
+import com.rdc.zposed.installer.util.RepoLoader;
+import com.rdc.zposed.installer.util.ThemeUtil;
 
 public class ModulesBookmark extends XposedBaseActivity {
 

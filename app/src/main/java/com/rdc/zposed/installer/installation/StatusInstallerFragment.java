@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.installation;
+package com.rdc.zposed.installer.installation;
 
 import android.annotation.SuppressLint;
 import android.app.Fragment;
@@ -36,22 +36,22 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.Set;
 
-import de.robv.android.xposed.installer.R;
-import com.rdc.xposed.installer.XposedApp;
-import com.rdc.xposed.installer.util.DownloadsUtil;
-import com.rdc.xposed.installer.util.DownloadsUtil.DownloadFinishedCallback;
-import com.rdc.xposed.installer.util.DownloadsUtil.DownloadInfo;
-import com.rdc.xposed.installer.util.FrameworkZips;
-import com.rdc.xposed.installer.util.FrameworkZips.FrameworkZip;
-import com.rdc.xposed.installer.util.FrameworkZips.LocalFrameworkZip;
-import com.rdc.xposed.installer.util.FrameworkZips.LocalZipLoader;
-import com.rdc.xposed.installer.util.FrameworkZips.OnlineFrameworkZip;
-import com.rdc.xposed.installer.util.FrameworkZips.OnlineZipLoader;
-import com.rdc.xposed.installer.util.InstallZipUtil;
-import com.rdc.xposed.installer.util.Loader;
-import com.rdc.xposed.installer.util.NavUtil;
-import com.rdc.xposed.installer.util.RootUtil;
-import com.rdc.xposed.installer.util.RunnableWithParam;
+import com.rdc.zposed.installer.R;
+import com.rdc.zposed.installer.XposedApp;
+import com.rdc.zposed.installer.util.DownloadsUtil;
+import com.rdc.zposed.installer.util.DownloadsUtil.DownloadFinishedCallback;
+import com.rdc.zposed.installer.util.DownloadsUtil.DownloadInfo;
+import com.rdc.zposed.installer.util.FrameworkZips;
+import com.rdc.zposed.installer.util.FrameworkZips.FrameworkZip;
+import com.rdc.zposed.installer.util.FrameworkZips.LocalFrameworkZip;
+import com.rdc.zposed.installer.util.FrameworkZips.LocalZipLoader;
+import com.rdc.zposed.installer.util.FrameworkZips.OnlineFrameworkZip;
+import com.rdc.zposed.installer.util.FrameworkZips.OnlineZipLoader;
+import com.rdc.zposed.installer.util.InstallZipUtil;
+import com.rdc.zposed.installer.util.Loader;
+import com.rdc.zposed.installer.util.NavUtil;
+import com.rdc.zposed.installer.util.RootUtil;
+import com.rdc.zposed.installer.util.RunnableWithParam;
 
 public class StatusInstallerFragment extends Fragment {
     public static final File DISABLE_FILE = new File(XposedApp.BASE_DIR + "conf/disabled");

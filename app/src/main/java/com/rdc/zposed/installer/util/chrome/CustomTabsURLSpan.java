@@ -1,10 +1,10 @@
-package com.rdc.xposed.installer.util.chrome;
+package com.rdc.zposed.installer.util.chrome;
 
 import android.app.Activity;
 import android.text.style.URLSpan;
 import android.view.View;
 
-import com.rdc.xposed.installer.util.NavUtil;
+import com.rdc.zposed.installer.util.NavUtil;
 
 /**
  * Created by Nikola D. on 12/23/2015.

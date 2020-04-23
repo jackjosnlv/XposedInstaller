@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer;
+package com.rdc.zposed.installer;
 
 import android.app.Activity;
 import android.content.Context;
@@ -9,13 +9,13 @@ import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 
-import com.rdc.xposed.installer.repo.Module;
-import com.rdc.xposed.installer.util.PrefixedSharedPreferences;
-import com.rdc.xposed.installer.util.RepoLoader;
+import com.rdc.zposed.installer.repo.Module;
+import com.rdc.zposed.installer.util.PrefixedSharedPreferences;
+import com.rdc.zposed.installer.util.RepoLoader;
 
 import java.util.Map;
 
-import de.robv.android.xposed.installer.R;
+import com.rdc.zposed.installer.R;
 
 public class DownloadDetailsSettingsFragment extends PreferenceFragment {
     private DownloadDetailsActivity mActivity;

@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.util;
+package com.rdc.zposed.installer.util;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,7 +13,7 @@ import android.os.FileUtils;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.rdc.xposed.installer.ModulesFragment;
+import com.rdc.zposed.installer.ModulesFragment;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -23,10 +23,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import de.robv.android.xposed.installer.R;
-import com.rdc.xposed.installer.XposedApp;
-import com.rdc.xposed.installer.repo.ModuleVersion;
-import com.rdc.xposed.installer.repo.RepoDb;
+import com.rdc.zposed.installer.R;
+import com.rdc.zposed.installer.XposedApp;
+import com.rdc.zposed.installer.repo.ModuleVersion;
+import com.rdc.zposed.installer.repo.RepoDb;
 
 public final class ModuleUtil {
     // xposedminversion below this

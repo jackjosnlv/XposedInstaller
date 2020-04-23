@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer;
+package com.rdc.zposed.installer;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -35,9 +35,9 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Calendar;
 
-import de.robv.android.xposed.installer.R;
+import com.rdc.zposed.installer.R;
 
-import static com.rdc.xposed.installer.XposedApp.WRITE_EXTERNAL_PERMISSION;
+import static com.rdc.zposed.installer.XposedApp.WRITE_EXTERNAL_PERMISSION;
 
 public class LogsFragment extends Fragment {
 
@@ -178,7 +178,7 @@ public class LogsFragment extends Fragment {
     }
 
     private void send() {
-        Uri uri = FileProvider.getUriForFile(getActivity(), "de.robv.android.xposed.installer.fileprovider", mFileErrorLog);
+        Uri uri = FileProvider.getUriForFile(getActivity(), "com.rdc.zposed.installer.fileprovider", mFileErrorLog);
         Intent sendIntent = new Intent();
         sendIntent.setAction(Intent.ACTION_SEND);
         sendIntent.putExtra(Intent.EXTRA_STREAM, uri);

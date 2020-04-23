@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer;
+package com.rdc.zposed.installer;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -22,15 +22,15 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import com.rdc.xposed.installer.repo.Module;
-import com.rdc.xposed.installer.util.Loader;
-import com.rdc.xposed.installer.util.ModuleUtil;
-import com.rdc.xposed.installer.util.RepoLoader;
-import com.rdc.xposed.installer.util.ThemeUtil;
+import com.rdc.zposed.installer.repo.Module;
+import com.rdc.zposed.installer.util.Loader;
+import com.rdc.zposed.installer.util.ModuleUtil;
+import com.rdc.zposed.installer.util.RepoLoader;
+import com.rdc.zposed.installer.util.ThemeUtil;
 
 import java.util.List;
 
-import de.robv.android.xposed.installer.R;
+import com.rdc.zposed.installer.R;
 
 public class DownloadDetailsActivity extends XposedBaseActivity implements Loader.Listener<RepoLoader>, ModuleUtil.ModuleListener {
 

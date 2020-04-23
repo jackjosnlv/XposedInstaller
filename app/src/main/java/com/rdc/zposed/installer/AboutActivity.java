@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer;
+package com.rdc.zposed.installer;
 
 import android.app.Fragment;
 import android.content.pm.PackageManager.NameNotFoundException;
@@ -12,8 +12,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.rdc.xposed.installer.util.NavUtil;
-import com.rdc.xposed.installer.util.ThemeUtil;
+import com.rdc.zposed.installer.util.NavUtil;
+import com.rdc.zposed.installer.util.ThemeUtil;
 
 import de.psdev.licensesdialog.LicensesDialog;
 import de.psdev.licensesdialog.licenses.ApacheSoftwareLicense20;
@@ -21,7 +21,7 @@ import de.psdev.licensesdialog.licenses.MITLicense;
 import de.psdev.licensesdialog.licenses.SILOpenFontLicense11;
 import de.psdev.licensesdialog.model.Notice;
 import de.psdev.licensesdialog.model.Notices;
-import de.robv.android.xposed.installer.R;
+import com.rdc.zposed.installer.R;
 
 public class AboutActivity extends XposedBaseActivity {
 

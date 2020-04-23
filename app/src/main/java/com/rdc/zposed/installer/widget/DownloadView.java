@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.widget;
+package com.rdc.zposed.installer.widget;
 
 import android.app.DownloadManager;
 import android.app.Fragment;
@@ -11,10 +11,10 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import de.robv.android.xposed.installer.R;
-import com.rdc.xposed.installer.util.DownloadsUtil;
-import com.rdc.xposed.installer.util.DownloadsUtil.DownloadFinishedCallback;
-import com.rdc.xposed.installer.util.DownloadsUtil.DownloadInfo;
+import com.rdc.zposed.installer.R;
+import com.rdc.zposed.installer.util.DownloadsUtil;
+import com.rdc.zposed.installer.util.DownloadsUtil.DownloadFinishedCallback;
+import com.rdc.zposed.installer.util.DownloadsUtil.DownloadInfo;
 
 public class DownloadView extends LinearLayout {
     public static String mClickedUrl;

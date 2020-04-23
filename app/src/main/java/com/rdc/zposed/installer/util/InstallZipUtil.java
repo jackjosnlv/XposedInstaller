@@ -1,11 +1,11 @@
-package com.rdc.xposed.installer.util;
+package com.rdc.zposed.installer.util;
 
 import android.content.Context;
 import android.content.res.Resources;
 import android.os.Build;
 import android.util.Log;
 
-import com.rdc.xposed.installer.installation.FlashCallback;
+import com.rdc.zposed.installer.installation.FlashCallback;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -17,9 +17,9 @@ import java.util.TreeSet;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
-import de.robv.android.xposed.installer.BuildConfig;
-import de.robv.android.xposed.installer.R;
-import com.rdc.xposed.installer.XposedApp;
+import com.rdc.zposed.installer.BuildConfig;
+import com.rdc.zposed.installer.R;
+import com.rdc.zposed.installer.XposedApp;
 
 public final class InstallZipUtil {
     private static final Set<String> FEATURES = new HashSet<>();

@@ -1,11 +1,11 @@
-package com.rdc.xposed.installer.receivers;
+package com.rdc.zposed.installer.receivers;
 
 import android.app.DownloadManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.rdc.xposed.installer.util.DownloadsUtil;
+import com.rdc.zposed.installer.util.DownloadsUtil;
 
 public class DownloadReceiver extends BroadcastReceiver {
     @Override

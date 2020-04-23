@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer;
+package com.rdc.zposed.installer;
 
 import android.app.Fragment;
 import android.content.Context;
@@ -32,16 +32,16 @@ import com.afollestad.materialdialogs.MaterialDialog;
 import java.text.DateFormat;
 import java.util.Date;
 
-import de.robv.android.xposed.installer.R;
+import com.rdc.zposed.installer.R;
 
-import com.rdc.xposed.installer.repo.RepoDb;
-import com.rdc.xposed.installer.repo.RepoDbDefinitions.OverviewColumnsIndexes;
-import com.rdc.xposed.installer.util.Loader;
-import com.rdc.xposed.installer.util.ModuleUtil;
-import com.rdc.xposed.installer.util.ModuleUtil.InstalledModule;
-import com.rdc.xposed.installer.util.ModuleUtil.ModuleListener;
-import com.rdc.xposed.installer.util.RepoLoader;
-import com.rdc.xposed.installer.util.ThemeUtil;
+import com.rdc.zposed.installer.repo.RepoDb;
+import com.rdc.zposed.installer.repo.RepoDbDefinitions.OverviewColumnsIndexes;
+import com.rdc.zposed.installer.util.Loader;
+import com.rdc.zposed.installer.util.ModuleUtil;
+import com.rdc.zposed.installer.util.ModuleUtil.InstalledModule;
+import com.rdc.zposed.installer.util.ModuleUtil.ModuleListener;
+import com.rdc.zposed.installer.util.RepoLoader;
+import com.rdc.zposed.installer.util.ThemeUtil;
 import se.emilsjolander.stickylistheaders.StickyListHeadersAdapter;
 import se.emilsjolander.stickylistheaders.StickyListHeadersListView;
 

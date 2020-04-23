@@ -1,6 +1,6 @@
-package com.rdc.xposed.installer.repo;
+package com.rdc.zposed.installer.repo;
 
-import de.robv.android.xposed.installer.R;
+import com.rdc.zposed.installer.R;
 
 public enum ReleaseType {
 	STABLE(R.string.reltype_stable),

@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.util;
+package com.rdc.zposed.installer.util;
 
 import android.content.Context;
 import android.os.Handler;
@@ -9,15 +9,15 @@ import android.support.annotation.StringRes;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.rdc.xposed.installer.installation.FlashCallback;
+import com.rdc.zposed.installer.installation.FlashCallback;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 
-import de.robv.android.xposed.installer.R;
-import com.rdc.xposed.installer.XposedApp;
+import com.rdc.zposed.installer.R;
+import com.rdc.zposed.installer.XposedApp;
 
 import eu.chainfire.libsuperuser.Shell;
 import eu.chainfire.libsuperuser.Shell.OnCommandResultListener;

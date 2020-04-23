@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.util;
+package com.rdc.zposed.installer.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -20,16 +20,16 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.zip.GZIPInputStream;
 
-import de.robv.android.xposed.installer.R;
-import com.rdc.xposed.installer.XposedApp;
-import com.rdc.xposed.installer.repo.Module;
-import com.rdc.xposed.installer.repo.ModuleVersion;
-import com.rdc.xposed.installer.repo.ReleaseType;
-import com.rdc.xposed.installer.repo.RepoDb;
-import com.rdc.xposed.installer.repo.RepoParser;
-import com.rdc.xposed.installer.repo.RepoParser.RepoParserCallback;
-import com.rdc.xposed.installer.repo.Repository;
-import com.rdc.xposed.installer.util.DownloadsUtil.SyncDownloadInfo;
+import com.rdc.zposed.installer.R;
+import com.rdc.zposed.installer.XposedApp;
+import com.rdc.zposed.installer.repo.Module;
+import com.rdc.zposed.installer.repo.ModuleVersion;
+import com.rdc.zposed.installer.repo.ReleaseType;
+import com.rdc.zposed.installer.repo.RepoDb;
+import com.rdc.zposed.installer.repo.RepoParser;
+import com.rdc.zposed.installer.repo.RepoParser.RepoParserCallback;
+import com.rdc.zposed.installer.repo.Repository;
+import com.rdc.zposed.installer.util.DownloadsUtil.SyncDownloadInfo;
 
 public class RepoLoader extends OnlineLoader<RepoLoader> {
     private static final String DEFAULT_REPOSITORIES = "http://dl.xposed.info/repo/full.xml.gz";

@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.repo;
+package com.rdc.zposed.installer.repo;
 
 import android.app.Activity;
 import android.content.Context;
@@ -24,7 +24,7 @@ import org.xmlpull.v1.XmlPullParserFactory;
 import java.io.IOException;
 import java.io.InputStream;
 
-import de.robv.android.xposed.installer.R;
+import com.rdc.zposed.installer.R;
 
 public class RepoParser {
     public final static String TAG = "XposedRepoParser";

@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.installation;
+package com.rdc.zposed.installer.installation;
 
 import android.content.Context;
 import android.os.Parcel;
@@ -10,15 +10,15 @@ import java.io.IOException;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
-import com.rdc.xposed.installer.XposedApp;
-import com.rdc.xposed.installer.util.AssetUtil;
-import com.rdc.xposed.installer.util.FrameworkZips;
-import com.rdc.xposed.installer.util.InstallZipUtil.ZipCheckResult;
-import com.rdc.xposed.installer.util.RootUtil;
+import com.rdc.zposed.installer.XposedApp;
+import com.rdc.zposed.installer.util.AssetUtil;
+import com.rdc.zposed.installer.util.FrameworkZips;
+import com.rdc.zposed.installer.util.InstallZipUtil.ZipCheckResult;
+import com.rdc.zposed.installer.util.RootUtil;
 
-import static com.rdc.xposed.installer.util.InstallZipUtil.closeSilently;
-import static com.rdc.xposed.installer.util.InstallZipUtil.triggerError;
-import static com.rdc.xposed.installer.util.RootUtil.getShellPath;
+import static com.rdc.zposed.installer.util.InstallZipUtil.closeSilently;
+import static com.rdc.zposed.installer.util.InstallZipUtil.triggerError;
+import static com.rdc.zposed.installer.util.RootUtil.getShellPath;
 
 public class FlashDirectly extends Flashable {
     private final boolean mSystemless;

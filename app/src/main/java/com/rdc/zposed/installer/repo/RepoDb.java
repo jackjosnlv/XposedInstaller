@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.repo;
+package com.rdc.zposed.installer.repo;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -9,22 +9,22 @@ import android.os.Build;
 import android.text.TextUtils;
 import android.util.Pair;
 
-import com.rdc.xposed.installer.util.ModuleUtil;
-import com.rdc.xposed.installer.util.RepoLoader;
+import com.rdc.zposed.installer.util.ModuleUtil;
+import com.rdc.zposed.installer.util.RepoLoader;
 
 import java.io.File;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import com.rdc.xposed.installer.XposedApp;
-import com.rdc.xposed.installer.repo.RepoDbDefinitions.InstalledModulesColumns;
-import com.rdc.xposed.installer.repo.RepoDbDefinitions.InstalledModulesUpdatesColumns;
-import com.rdc.xposed.installer.repo.RepoDbDefinitions.ModuleVersionsColumns;
-import com.rdc.xposed.installer.repo.RepoDbDefinitions.ModulesColumns;
-import com.rdc.xposed.installer.repo.RepoDbDefinitions.MoreInfoColumns;
-import com.rdc.xposed.installer.repo.RepoDbDefinitions.OverviewColumns;
-import com.rdc.xposed.installer.repo.RepoDbDefinitions.OverviewColumnsIndexes;
-import com.rdc.xposed.installer.repo.RepoDbDefinitions.RepositoriesColumns;
+import com.rdc.zposed.installer.XposedApp;
+import com.rdc.zposed.installer.repo.RepoDbDefinitions.InstalledModulesColumns;
+import com.rdc.zposed.installer.repo.RepoDbDefinitions.InstalledModulesUpdatesColumns;
+import com.rdc.zposed.installer.repo.RepoDbDefinitions.ModuleVersionsColumns;
+import com.rdc.zposed.installer.repo.RepoDbDefinitions.ModulesColumns;
+import com.rdc.zposed.installer.repo.RepoDbDefinitions.MoreInfoColumns;
+import com.rdc.zposed.installer.repo.RepoDbDefinitions.OverviewColumns;
+import com.rdc.zposed.installer.repo.RepoDbDefinitions.OverviewColumnsIndexes;
+import com.rdc.zposed.installer.repo.RepoDbDefinitions.RepositoriesColumns;
 
 public final class RepoDb extends SQLiteOpenHelper {
     public static final int SORT_STATUS = 0;

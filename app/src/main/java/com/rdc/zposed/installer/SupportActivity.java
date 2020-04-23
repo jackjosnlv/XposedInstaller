@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer;
+package com.rdc.zposed.installer;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -9,10 +9,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.rdc.xposed.installer.util.NavUtil;
-import com.rdc.xposed.installer.util.ThemeUtil;
+import com.rdc.zposed.installer.util.NavUtil;
+import com.rdc.zposed.installer.util.ThemeUtil;
 
-import de.robv.android.xposed.installer.R;
+import com.rdc.zposed.installer.R;
 
 public class SupportActivity extends XposedBaseActivity {
     @Override

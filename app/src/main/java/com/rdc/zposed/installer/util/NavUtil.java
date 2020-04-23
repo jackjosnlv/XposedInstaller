@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.util;
+package com.rdc.zposed.installer.util;
 
 import android.app.Activity;
 import android.content.Context;
@@ -15,8 +15,8 @@ import android.text.util.Linkify;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 
-import de.robv.android.xposed.installer.R;
-import com.rdc.xposed.installer.XposedApp;
+import com.rdc.zposed.installer.R;
+import com.rdc.zposed.installer.XposedApp;
 
 public final class NavUtil {
 

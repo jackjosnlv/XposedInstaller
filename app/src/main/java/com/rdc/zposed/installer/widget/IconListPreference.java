@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.widget;
+package com.rdc.zposed.installer.widget;
 
 /*
 * Copyright (C) 2013 The Android Open Source Project
@@ -35,7 +35,7 @@ import android.widget.ListAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.robv.android.xposed.installer.R;
+import com.rdc.zposed.installer.R;
 
 public class IconListPreference extends ListPreference {
 

@@ -1,11 +1,11 @@
-package com.rdc.xposed.installer.util;
+package com.rdc.zposed.installer.util;
 
 import android.support.v4.widget.SwipeRefreshLayout;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import com.rdc.xposed.installer.XposedApp;
+import com.rdc.zposed.installer.XposedApp;
 
 public abstract class Loader<T> implements SwipeRefreshLayout.OnRefreshListener {
     protected final String CLASS_NAME = getClass().getSimpleName();

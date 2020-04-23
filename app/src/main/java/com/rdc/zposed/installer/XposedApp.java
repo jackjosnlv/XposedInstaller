@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer;
+package com.rdc.zposed.installer;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -17,11 +17,11 @@ import android.preference.PreferenceManager;
 import android.support.v4.content.FileProvider;
 import android.util.Log;
 
-import com.rdc.xposed.installer.util.AssetUtil;
-import com.rdc.xposed.installer.util.DownloadsUtil;
-import com.rdc.xposed.installer.util.InstallZipUtil;
-import com.rdc.xposed.installer.util.NotificationUtil;
-import com.rdc.xposed.installer.util.RepoLoader;
+import com.rdc.zposed.installer.util.AssetUtil;
+import com.rdc.zposed.installer.util.DownloadsUtil;
+import com.rdc.zposed.installer.util.InstallZipUtil;
+import com.rdc.zposed.installer.util.NotificationUtil;
+import com.rdc.zposed.installer.util.RepoLoader;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -32,15 +32,15 @@ public class XposedApp extends Application implements ActivityLifecycleCallbacks
     public static final String TAG = "XposedInstaller";
 
     @SuppressLint("SdCardPath")
-    private static final String BASE_DIR_LEGACY = "/data/data/de.robv.android.xposed.installer/";
+    private static final String BASE_DIR_LEGACY = "/data/data/com.rdc.zposed.installer/";
 
     public static final String BASE_DIR = Build.VERSION.SDK_INT >= 24
-            ? "/data/user_de/0/de.robv.android.xposed.installer/" : BASE_DIR_LEGACY;
+            ? "/data/user_de/0/com.rdc.zposed.installer/" : BASE_DIR_LEGACY;
 
     public static final String ENABLED_MODULES_LIST_FILE = XposedApp.BASE_DIR + "conf/enabled_modules.list";
 
     private static final String[] XPOSED_PROP_FILES = new String[]{
-            "/su/xposed/xposed.prop", // official systemless
+            "/su/xposed/zposed.prop", // official systemless
             "/system/xposed.prop",    // classical
     };
 
@@ -93,7 +93,7 @@ public class XposedApp extends Application implements ActivityLifecycleCallbacks
         installIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         Uri uri;
         if (Build.VERSION.SDK_INT >= 24) {
-            uri = FileProvider.getUriForFile(context, "de.robv.android.xposed.installer.fileprovider", new File(info.localFilename));
+            uri = FileProvider.getUriForFile(context, "com.rdc.zposed.installer.fileprovider", new File(info.localFilename));
             installIntent.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
         } else {
             uri = Uri.fromFile(new File(info.localFilename));

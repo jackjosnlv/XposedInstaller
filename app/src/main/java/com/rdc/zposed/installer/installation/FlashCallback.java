@@ -1,6 +1,6 @@
-package com.rdc.xposed.installer.installation;
+package com.rdc.zposed.installer.installation;
 
-import com.rdc.xposed.installer.util.RootUtil;
+import com.rdc.zposed.installer.util.RootUtil;
 import eu.chainfire.libsuperuser.Shell;
 
 public interface FlashCallback extends RootUtil.LineCallback {

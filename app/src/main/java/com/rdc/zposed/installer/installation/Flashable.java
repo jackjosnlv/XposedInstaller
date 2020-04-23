@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.installation;
+package com.rdc.zposed.installer.installation;
 
 import android.content.Context;
 import android.os.Parcel;
@@ -9,14 +9,14 @@ import java.io.IOException;
 import java.util.Set;
 import java.util.zip.ZipFile;
 
-import com.rdc.xposed.installer.util.FrameworkZips;
-import com.rdc.xposed.installer.util.InstallZipUtil;
-import com.rdc.xposed.installer.util.InstallZipUtil.ZipCheckResult;
-import com.rdc.xposed.installer.util.RootUtil;
+import com.rdc.zposed.installer.util.FrameworkZips;
+import com.rdc.zposed.installer.util.InstallZipUtil;
+import com.rdc.zposed.installer.util.InstallZipUtil.ZipCheckResult;
+import com.rdc.zposed.installer.util.RootUtil;
 
-import static com.rdc.xposed.installer.util.InstallZipUtil.closeSilently;
-import static com.rdc.xposed.installer.util.InstallZipUtil.reportMissingFeatures;
-import static com.rdc.xposed.installer.util.InstallZipUtil.triggerError;
+import static com.rdc.zposed.installer.util.InstallZipUtil.closeSilently;
+import static com.rdc.zposed.installer.util.InstallZipUtil.reportMissingFeatures;
+import static com.rdc.zposed.installer.util.InstallZipUtil.triggerError;
 
 public abstract class Flashable implements Parcelable {
     public static final String KEY = "flash";

@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer;
+package com.rdc.zposed.installer;
 
 import android.Manifest;
 import android.content.SharedPreferences;
@@ -16,13 +16,13 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.afollestad.materialdialogs.folderselector.FolderChooserDialog;
-import com.rdc.xposed.installer.util.RepoLoader;
-import com.rdc.xposed.installer.util.ThemeUtil;
+import com.rdc.zposed.installer.util.RepoLoader;
+import com.rdc.zposed.installer.util.ThemeUtil;
 
 import java.io.File;
 import java.io.IOException;
 
-import de.robv.android.xposed.installer.R;
+import com.rdc.zposed.installer.R;
 
 public class SettingsActivity extends XposedBaseActivity implements FolderChooserDialog.FolderCallback {
 

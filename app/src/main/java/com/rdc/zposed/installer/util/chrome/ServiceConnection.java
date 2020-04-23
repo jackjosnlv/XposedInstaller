@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.util.chrome;
+package com.rdc.zposed.installer.util.chrome;
 
 import android.content.ComponentName;
 import android.support.customtabs.CustomTabsClient;

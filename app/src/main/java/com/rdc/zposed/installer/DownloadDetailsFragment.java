@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer;
+package com.rdc.zposed.installer;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -11,12 +11,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import de.robv.android.xposed.installer.R;
+import com.rdc.zposed.installer.R;
 
-import com.rdc.xposed.installer.repo.Module;
-import com.rdc.xposed.installer.repo.RepoParser;
-import com.rdc.xposed.installer.util.NavUtil;
-import com.rdc.xposed.installer.util.chrome.LinkTransformationMethod;
+import com.rdc.zposed.installer.repo.Module;
+import com.rdc.zposed.installer.repo.RepoParser;
+import com.rdc.zposed.installer.util.NavUtil;
+import com.rdc.zposed.installer.util.chrome.LinkTransformationMethod;
 
 public class DownloadDetailsFragment extends Fragment {
     private DownloadDetailsActivity mActivity;

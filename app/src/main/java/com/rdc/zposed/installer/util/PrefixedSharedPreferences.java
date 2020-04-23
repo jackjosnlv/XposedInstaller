@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.util;
+package com.rdc.zposed.installer.util;
 
 import android.annotation.SuppressLint;
 import android.content.SharedPreferences;

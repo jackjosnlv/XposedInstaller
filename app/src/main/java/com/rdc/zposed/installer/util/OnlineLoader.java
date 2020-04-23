@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.util;
+package com.rdc.zposed.installer.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -6,7 +6,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.support.annotation.CallSuper;
 
-import com.rdc.xposed.installer.XposedApp;
+import com.rdc.zposed.installer.XposedApp;
 
 public abstract class OnlineLoader<T> extends Loader<T> {
     protected SharedPreferences mPref = XposedApp.getPreferences();

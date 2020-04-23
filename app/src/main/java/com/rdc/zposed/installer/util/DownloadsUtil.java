@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.util;
+package com.rdc.zposed.installer.util;
 
 import android.app.DownloadManager;
 import android.app.DownloadManager.Query;
@@ -35,11 +35,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import de.robv.android.xposed.installer.R;
-import com.rdc.xposed.installer.XposedApp;
-import com.rdc.xposed.installer.repo.Module;
-import com.rdc.xposed.installer.repo.ModuleVersion;
-import com.rdc.xposed.installer.repo.ReleaseType;
+import com.rdc.zposed.installer.R;
+import com.rdc.zposed.installer.XposedApp;
+import com.rdc.zposed.installer.repo.Module;
+import com.rdc.zposed.installer.repo.ModuleVersion;
+import com.rdc.zposed.installer.repo.ReleaseType;
 
 public class DownloadsUtil {
     public static final String MIME_TYPE_APK = "application/vnd.android.package-archive";

@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.widget;
+package com.rdc.zposed.installer.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;

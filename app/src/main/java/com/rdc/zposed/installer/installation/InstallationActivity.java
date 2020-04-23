@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.installation;
+package com.rdc.zposed.installer.installation;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -26,13 +26,13 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.rdc.xposed.installer.XposedBaseActivity;
+import com.rdc.zposed.installer.XposedBaseActivity;
 
 import java.io.File;
 
-import de.robv.android.xposed.installer.R;
-import com.rdc.xposed.installer.XposedApp;
-import com.rdc.xposed.installer.util.RootUtil;
+import com.rdc.zposed.installer.R;
+import com.rdc.zposed.installer.XposedApp;
+import com.rdc.zposed.installer.util.RootUtil;
 
 public class InstallationActivity extends XposedBaseActivity {
     private static final int REBOOT_COUNTDOWN = 15000;

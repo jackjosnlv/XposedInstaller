@@ -1,4 +1,4 @@
-package com.rdc.xposed.installer.util;
+package com.rdc.zposed.installer.util;
 
 import android.content.Context;
 import android.os.Build;
@@ -31,11 +31,11 @@ import java.util.TreeMap;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
-import de.robv.android.xposed.installer.R;
-import com.rdc.xposed.installer.XposedApp;
-import com.rdc.xposed.installer.util.DownloadsUtil.SyncDownloadInfo;
-import com.rdc.xposed.installer.util.InstallZipUtil.XposedProp;
-import com.rdc.xposed.installer.util.InstallZipUtil.ZipCheckResult;
+import com.rdc.zposed.installer.R;
+import com.rdc.zposed.installer.XposedApp;
+import com.rdc.zposed.installer.util.DownloadsUtil.SyncDownloadInfo;
+import com.rdc.zposed.installer.util.InstallZipUtil.XposedProp;
+import com.rdc.zposed.installer.util.InstallZipUtil.ZipCheckResult;
 
 public final class FrameworkZips {
     public static final String ARCH = getArch();
