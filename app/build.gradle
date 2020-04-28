@@ -4,7 +4,7 @@ android {
     compileSdkVersion 27
 
     defaultConfig {
-        applicationId "com.rdc.zposed.installer"
+        applicationId "com.rdc.rdcsun.installer"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 43
