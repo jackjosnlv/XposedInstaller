@@ -40,8 +40,8 @@ public class XposedApp extends Application implements ActivityLifecycleCallbacks
     public static final String ENABLED_MODULES_LIST_FILE = XposedApp.BASE_DIR + "conf/enabled_modules.list";
 
     private static final String[] XPOSED_PROP_FILES = new String[]{
-            "/su/xposed/zposed.prop", // official systemless
-            "/system/xposed.prop",    // classical
+            "/su/zposed/zposed.prop", // official systemless
+            "/system/zposed.prop",    // classical
     };
 
     public static int WRITE_EXTERNAL_PERMISSION = 69;
